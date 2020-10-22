@@ -1,12 +1,10 @@
-.header1 {
-    background-color:  #DDA0DD;
-    padding: 20px;
-}
-
-.titre {
-    color : white;
-    font-family: Arial;
-    font-size: 22;
-    
+header {
+    background-color: plum;
+    font-family: arial;
+    padding : 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 5px;
 
 }
