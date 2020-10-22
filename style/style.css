@@ -1,7 +1,10 @@
-.header {
-    background-color: #256152
+.header1 {
+    background-color: #256152;
 }
 
 .titre {
-    color : white
+    color : white;
+    font-family: Arial;
+    font-size: 16;
+
 }
