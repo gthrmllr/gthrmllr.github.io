@@ -1,0 +1,66 @@
+body {
+    margin: 0px;
+    background-image: url(../img/galaxy2.jpg);
+    background-size: cover;
+}
+
+.div1 {
+    
+    color: white;
+    display: flex;
+    font-family: arial;
+    
+
+}
+
+.div11 {
+    color: white;
+    display: flex;
+    font-family: arial;
+    margin-left: 20px;
+    align-items: center;
+    
+}
+
+.div12 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 65%;
+    margin-right: 20px;
+}
+
+.div121 {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.div122 {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.div123 {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.galaxy {
+    width: 10%;
+    
+}
+
+.div3 {
+    color: white;
+    font-family: arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;    
+}
+
+.div31 {
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+    padding-right: 20px; padding-left: 20px; padding-top: 10px; padding-bottom: 10px;
+}
