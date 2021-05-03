@@ -1,0 +1,8 @@
+  03/05/2021 22:14:12: Starting composition “logo”.
+
+  Output To: F:\Document\COURS\WEBECOM\RESSOURCES_GRAPHISMES\Nouveau dossier\logo\logo_[#####].png      Render stopped by user.    03/05/2021 22:14:13: Finished composition “logo”.
+
+
+  Total Time Elapsed: 1 Seconds
+Log closed on 03/05/2021 at 22:14:13
+

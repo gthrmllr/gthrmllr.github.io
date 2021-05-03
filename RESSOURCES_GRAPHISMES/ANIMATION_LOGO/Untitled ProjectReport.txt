@@ -1,0 +1,28 @@
+Report created: 
+	03/05/2021	19:40:47
+
+Project name: Untitled Project.aep
+
+Source files collected to: 
+	C:\Users\Gauthier\Desktop\Untitled Project folder
+
+Source files collected: All
+
+Collected comps:  
+	logo
+	
+Number of collected files:  1
+
+Size of collected files:  1,3 MB
+
+Collected source files: 
+	F:\Document\COURS\WEBECOM\logo.ai
+	
+Rendering plug-ins:
+	Classic 3D
+	
+Effects used:  1
+
+Effect:  Fill
+	
+
