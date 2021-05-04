@@ -1,0 +1,115 @@
+
+/**BODY**/
+
+body {
+    margin:0;
+    height: 100vh;
+    background-color: #32303C;
+    color:#F0EFF6;
+}
+
+/**HEADER**/
+
+.header1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 82px;
+    width: 100vw;
+    box-shadow: 1px 1px 1px white;
+}
+
+.anim {
+   height: 55px;
+   padding-left: 30px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-right:auto;
+}
+
+.webecom-titre{
+    font-family: "estilo pro bold";
+    color: #F0EFF6;
+    font-size: 30px;
+    
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: #F0EFF6;
+    font-family:"roboto";
+    font-size: 18px;
+    font-weight: bold;
+    gap: 100px;
+    padding-right: 100px;
+    
+  }
+
+  a:link 
+  { 
+   text-decoration:none; 
+   color: #F0EFF6;
+  } 
+
+  
+  a:visited 
+  { 
+   text-decoration:none; 
+   color: #F0EFF6;
+  } 
+
+  /*****************PAGE**************************/
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway';
+  }
+
+.pdl {
+    padding-top: 50px;
+}
+
+.box {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.txt-box {
+    padding-bottom: 100px;
+}
+
+.rangee {
+    display: flex;
+    gap: 250px;
+}
+
+.case {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.laphoto {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.role {
+    margin-top: -10px;
+}

@@ -1,16 +1,21 @@
+/**BODY**/
+
 body {
     margin:0;
     height: 100vh;
-    background-image: url(../img/BG1/BG.png);
+    background-image: url(../img/index/BG1/BG.png);
     background-repeat: no-repeat;
-    
-   
+    overflow-x: hidden;
 }
+
 
 .img-bg-main{
 height :100vh;
 width: 100%;
+overflow-x: hidden;
 }
+
+/**HEADER**/
 
 .header1 {
     display: flex;
@@ -50,7 +55,24 @@ width: 100%;
     font-weight: bold;
     gap: 100px;
     padding-right: 100px;
+    
   }
+
+  a:link 
+  { 
+   text-decoration:none; 
+   color: #F0EFF6;
+  } 
+
+  
+  a:visited 
+  { 
+   text-decoration:none; 
+   color: #F0EFF6;
+  } 
+
+/**********************************************/
+/***PAGE_1***/
 
 
 .DIV_TXT {
@@ -124,10 +146,17 @@ align-items: center;
 }
 
 
+
+
+/**********************************************/
+/***PAGE_2***/
+
+
+
+
 .part2  {
     height: 50vh;    
-    background-color: green;
-    background-image: url(../img/BG2/BG.png);
+    background-image: url(../img/index/BG2/BG.png);
     background-repeat: no-repeat;
     background-position: absolute;    
     background-position-x: -360px;
@@ -135,6 +164,7 @@ align-items: center;
     font-family: "Raleway";
     color: white;
     font-size: 24pt;
+    overflow-x: hidden;
 }
 
 .txt-part2 {
