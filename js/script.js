@@ -13,4 +13,4 @@ if(val>limite){
 }
 setInterval(() => {
     mouv()
-}, 1000);
+}, 5000);
