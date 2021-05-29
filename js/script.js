@@ -1,4 +1,4 @@
-let val = -100;
+let val = 0;
 let limite = -500;
 function mouv(){
 
@@ -13,4 +13,4 @@ if(val>limite){
 }
 setInterval(() => {
     mouv()
-}, 5000);
+}, 2500);

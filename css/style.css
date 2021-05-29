@@ -6,6 +6,7 @@ body {
     background-image: url(../img/index/BG1/BG.png);
     background-repeat: no-repeat;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 
@@ -23,7 +24,7 @@ overflow-x: hidden;
     justify-content: space-between;
     height: 82px;
     width: 100vw;
-    box-shadow: 1px 1px 1px white;
+    box-shadow: 1px 1px 1px #F0EFF6;
 }
 
 .anim {
@@ -249,6 +250,7 @@ align-items: center;
 .container {
     display: inline-flex;
     transition: 1s ease-in-out ;
+    background-image: url(/img/slider/0.png);
 }
 
 .cache {
