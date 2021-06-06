@@ -39,7 +39,7 @@ overflow-x: hidden;
 }
 
 .webecom-titre{
-    font-family: "estilo pro bold";
+    font-family: "Catamaran";
     color: #F0EFF6;
     font-size: 30px;
     
@@ -89,6 +89,10 @@ overflow-x: hidden;
     transform: scaleX(1);
 }
 
+.nos-creations:hover+.barre{
+    transform: scaleX(1);
+}
+
 .nous-contacter:hover+.barre{
     transform: scaleX(1);
 }
@@ -106,11 +110,12 @@ overflow-x: hidden;
 
 .champs {
     width: 100%;
-    height: 45px;
+    padding-bottom: 45px;
     background-color: #F0EFF6;
     border-radius: 5px;
     box-shadow: 1px black;
     margin-top: 5px;
+    font-size: 14pt;
 }
 
 .div_champs {
@@ -119,11 +124,12 @@ overflow-x: hidden;
 
 .champs_msg{
     width: 100%;
-    height: 200px;
+    padding-bottom: 200px;
     border-radius: 5px;
     box-shadow: 1px black;
     margin-top: 5px;
     background-color: #F0EFF6;
+    font-size: 14pt;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
@@ -138,7 +144,7 @@ overflow-x: hidden;
     border-image: linear-gradient(160deg, rgba(184, 234, 255, 1), rgba(94, 96, 149, 0), rgba(40, 34, 75, 0), rgba(133, 138, 227, 1)) 1;
 
     margin-left: 5%;
-    margin-top: 2%;
+
     
 
 }
