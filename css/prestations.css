@@ -29,7 +29,9 @@ overflow-x: hidden;
 
 .anim {
    height: 55px;
-   padding-left: 30px;
+   margin-left: -450px;
+   margin-right: -475px;
+
 }
 
 .header-left {

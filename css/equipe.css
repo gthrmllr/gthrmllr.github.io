@@ -24,11 +24,14 @@ overflow-x: hidden;
     height: 82px;
     width: 100vw;
     box-shadow: 1px 1px 1px white;
+    justify-content: space-between;
 }
 
 .anim {
    height: 55px;
-   padding-left: 30px;
+   margin-left: -450px;
+   margin-right: -475px;
+
 }
 
 .header-left {
@@ -55,6 +58,7 @@ overflow-x: hidden;
     font-weight: bold;
     gap: 100px;
     padding-right: 100px;
+    margin-left: auto;
     
   }
 

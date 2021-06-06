@@ -23,11 +23,13 @@ overflow-x: hidden;
     height: 82px;
     width: 100vw;
     box-shadow: 1px 1px 1px white;
+    
 }
 
 .anim {
    height: 55px;
-   padding-left: 30px;
+   margin-left: -450px;
+   margin-right: -475px;
 }
 
 .header-left {
