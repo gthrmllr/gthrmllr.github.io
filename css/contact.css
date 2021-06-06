@@ -35,7 +35,7 @@ overflow-x: hidden;
     display: flex;
     align-items: center;
     gap: 30px;
-    padding-right:auto;
+    margin-right:auto;
 }
 
 .webecom-titre{

@@ -21,7 +21,6 @@ overflow-x: hidden;
 .header1 {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     height: 82px;
     width: 100vw;
     box-shadow: 1px 1px 1px #F0EFF6;
@@ -36,7 +35,7 @@ overflow-x: hidden;
     display: flex;
     align-items: center;
     gap: 30px;
-    padding-right:auto;
+    margin-right:auto;
 }
 
 .webecom-titre{
