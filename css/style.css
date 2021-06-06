@@ -27,11 +27,10 @@ overflow-x: hidden;
 }
 
 .anim {
-   height: 55px;
-   margin-left: -450px;
-   margin-right: -475px;
-
-}
+    height: 55px;
+    margin-left: -450px;
+    margin-right: -475px;
+ }
 
 .header-left {
     display: flex;
