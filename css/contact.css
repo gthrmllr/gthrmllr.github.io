@@ -20,23 +20,22 @@ overflow-x: hidden;
 .header1 {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     height: 82px;
     width: 100vw;
     box-shadow: 1px 1px 1px white;
-    
 }
 
 .anim {
    height: 55px;
-   margin-left: -450px;
-   margin-right: -475px;
+   padding-left: 30px;
 }
 
 .header-left {
     display: flex;
     align-items: center;
     gap: 30px;
-    margin-right:auto;
+    padding-right:auto;
 }
 
 .webecom-titre{
