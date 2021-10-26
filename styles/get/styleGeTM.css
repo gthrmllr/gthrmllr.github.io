@@ -2,7 +2,7 @@ body {
     margin: 0 0;
     width: 100vw;
     overflow-x: hidden;
-        
+    
     display: grid;
 
     font-family: 'Raleway';
@@ -31,18 +31,26 @@ nav {
     color: black;
     font-size: 36pt;
     padding:50px;
-
+    overflow: hidden;
+    z-index: 1;
 }
 
-nav>a, a:hover, a:visited, a:active{
-    color: rgb(11, 85, 85);
+
+
+nav a,nav a:hover,nav a:visited,nav a:active{
+    color: black;
+	text-decoration:none;
+}
+
+nav>a:nth-child(2),a:hover:nth-child(2),a:visited:nth-child(2){
+    color: #ACC4A1;
 }
 
 .ferme{
     transform: translateY(0%);
+    overflow:hidden; 
    
 }
-
 
 /************************************/
 /**********  FOOTER   ***************/
@@ -66,9 +74,8 @@ footer {
     flex-direction: column
 }
 
-a, a:hover, a:visited, a:active
-{
-	color:#FFF;
+footer a,footer a:hover,footer a:visited,footer a:active{
+    color: #FFF;
 	text-decoration:none;
 }
 
