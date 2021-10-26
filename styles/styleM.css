@@ -31,11 +31,17 @@ nav {
     color: black;
     font-size: 36pt;
     padding:50px;
+    overflow: hidden;
+}
 
+nav a,nav a:hover,nav a:visited,nav a:active{
+    color: black;
+	text-decoration:none;
 }
 
 .ferme{
     transform: translateY(0%);
+    overflow:hidden; 
    
 }
 
@@ -57,16 +63,17 @@ nav {
     width: 100vw;
 }
 
+
+
 .txt {
     position: absolute;
-    color: #ffffff;
+    top: 50%;
+    color: #a82626;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    top: 45%;
-    left:25%;
-
+    
 }
 
 
@@ -97,6 +104,11 @@ h1 {
 
     margin-left:25px;
     margin-bottom: 50px;
+}
+
+.button_gites a,.button_gites a:hover,.button_gites a:visited,.button_gites a:active{
+    color: #FFF;
+	text-decoration:none;
 }
 
 .s2img {
@@ -131,9 +143,8 @@ footer {
     flex-direction: column
 }
 
-a, a:hover, a:visited, a:active
-{
-	color:#FFF;
+footer a,footer a:hover,footer a:visited,footer a:active{
+    color: #FFF;
 	text-decoration:none;
 }
 
