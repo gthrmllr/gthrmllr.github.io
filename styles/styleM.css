@@ -1,6 +1,7 @@
 body {
     margin: 0 0;
     width: 100vw;
+    overflow-x: hidden;
         
     font-family: 'Raleway';
    
@@ -40,10 +41,18 @@ nav {
 /**********  MAIN PAGE 1  ***************/
 /************************************/
 
+.containerslider {
+    overflow: hidden;
+    width: 400px;
+}
+
 .slider {
     display: flex;
-    height: 100%;
-    width: 100%;
+    transition: 0.4s;
+}
+
+.slider>img {
+    width: 100vw;
 }
 
 .txt {
