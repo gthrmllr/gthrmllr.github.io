@@ -49,14 +49,15 @@ nav a,nav a:hover,nav a:visited,nav a:active{
 /**********  MAIN PAGE 1  ***************/
 /************************************/
 
-.containerslider {
-    overflow: hidden;
-    width: 400px;
-}
 
 .slider {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     transition: 0.4s;
+    width: 100vw;
+    position: relative;
 }
 
 .slider>img {
@@ -67,8 +68,8 @@ nav a,nav a:hover,nav a:visited,nav a:active{
 
 .txt {
     position: absolute;
-    top: 50%;
-    color: #a82626;
+    
+    color: #FFF;
     display: flex;
     flex-direction: column;
     align-items: center;
