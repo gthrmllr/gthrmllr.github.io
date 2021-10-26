@@ -19,12 +19,15 @@ header {
 }
 
 nav {
-    background-color: rgb(167, 167, 13);
+    background-color: #FFFDFA;
     height: 100vh;
     width: 100vw;
     transition: 0.4s;
     transform: translateY(-200%);
     position: absolute;
+    color: black;
+    font-size: 36pt;
+    padding:50px;
 
 }
 
