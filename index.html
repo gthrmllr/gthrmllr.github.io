@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style/styleM.css">
+    <link rel="stylesheet" href="/style/stylePC.css" media="screen and (min-width: 1000px)">
     <title>Jade BACHETA's Portfolio</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');</style>
@@ -15,7 +16,7 @@
        <div class="barre_blanche"></div>
 
        <nav>
-            <p class="aboutme">ABOUT ME</p>
+            <a href="/index.html" onclick=menu()><p class="aboutme">ABOUT ME</p></a>
             <a href="/index.html#page02" onclick=menu()><p class="portfolio">PORTFOLIO</p></a>
             <a href="/index.html#page03" onclick=menu()><p class="resume_nav">RESUME</p></a>
             <a href="/index.html#page04" onclick=menu()><p class="contactme">CONTACT ME</p></a>
@@ -36,8 +37,10 @@
        <div class="page2" id=page02>
            <h2>Discover my work.</h2>
 
-           <a href="/illustrations.html"><div class="work_illu"><div class="titre_work">Illustrations</div></div></a>
-           <a href="/webdesign.html"><div class="work_webdesign"><div class="titre_work">WebDesign</div></div></a>
+           
+               <a href="/illustrations.html"><div class="work_illu"><div class="titre_work">Illustrations</div></div></a>
+               <a href="/webdesign.html"><div class="work_webdesign"><div class="titre_work">WebDesign</div></div></a>
+     
 
 
            <div class="npage">02</div>
@@ -45,6 +48,7 @@
 
        <div class="page3" id=page03>
         <h2>Skills.</h2>
+        <div class="skills_group">
             <div class="skills">
                 <img src="/img/index/ps.png" class="logo_skills">
 
@@ -110,6 +114,7 @@
                     <div class="barre_blanche_skills"><div class="barre_skills"></div></div>
                 </div>
             </div>
+        </div>
 
             <a href="/resume.html"><div class="resume">VIEW FULL RESUME</div></a>
 
