@@ -94,8 +94,8 @@ nav>a,nav>a:visited,nav>a:hover,nav>a:active{
     font-size: 64pt;
 
     position: absolute;
-    bottom: 30px;
-    left: 30px;
+    bottom: 0px;
+    left: 15px;
 
     background: -webkit-linear-gradient(90deg, rgba(57,44,107,1) 0%, rgba(192,125,242,1) 33%, rgba(255,133,201,1) 66%, rgba(255,138,151,1) 100%);
     -webkit-background-clip: text;
