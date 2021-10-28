@@ -100,117 +100,21 @@ nav>a,nav>a:visited,nav>a:hover,nav>a:active{
 /*****   PAGE 1  ******/
 /**********************/
 
-#page01 {
+
+main {
+    
     padding-left: 250px;
-}
-
-.page1 {
-    
-    margin-right: 250px;
-}
-
-.txtpage1 {
-    margin-top: 200px;
-}
-
-.page_1_txt1 {
-    font-size: 64pt;
-}
-
-.page_1_txt2 {
-    font-size: 96pt;
-    margin-top: -100px;
-
-}
-
-.page_1_txt3 {
-    font-size: 32pt;
-    width: 40%;
     
 }
 
-h2 {
-    padding-top: 100px;
+.case {
+    grid-template-columns: auto  75%;
 }
 
-/**********************/
-/*****   PAGE 2  ******/
-/**********************/
+.skills, .langues{
+    grid-template-columns: 125px 125px 125px 125px;
 
-#page02 {
-    padding-left: 250px;
 }
-
-.page2 {
-   
-    margin-right: 250px;
-    
-}
-
-.titre_work {
-    transform: translateY(150px);
-}
-
-.work_illu {
-    width: 30%;
-    height: 25%;
-}
-
-
-.work_webdesign {
-    width: 30%;
-    height: 25%;
-}
-
-.work_group {
-    display: flex;
-}
-
-/**********************/
-/*****   PAGE 3  ******/
-/**********************/
-
-#page03 {
-    padding-left: 250px;
-}
-
-.page3 {
-    
-    margin-right: 250px;
-    
-}
-
-.skills_group {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 50px;
-}
-
-.barre_blanche_skills {
-    width: 50%;
-}
-
-.resume {
-    margin-right: 350px;
-    
-}
-
-
-
-/**********************/
-/*****   PAGE 4  ******/
-/**********************/
-
-#page04 {
-    padding-left: 250px;
-}
-
-.page4 {
-    
-    margin-right: 250px;
-    
-}
-
 
 /**********************/
 /*****  FOOTER   ******/
