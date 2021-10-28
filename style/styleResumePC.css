@@ -100,6 +100,9 @@ nav>a,nav>a:visited,nav>a:hover,nav>a:active{
 /*****   PAGE 1  ******/
 /**********************/
 
+h2 {
+    margin-bottom: -20px;
+}
 
 main {
     
@@ -110,16 +113,44 @@ main {
 .divresume {
     display: grid;
     grid-template-columns: 1fr 1fr ;
+    grid-template-areas: 
+                        "edu ski"
+                        "none lang"
+                        "workexp misc";
+                        
     
 }
 
 .case {
     grid-template-columns: auto  75%;
+    margin-top: -20px;
 }
 
 .skills, .langues{
     grid-template-columns: 125px 125px 125px 125px;
 
+}
+
+.misc {
+    grid-area: misc;
+    
+}
+
+.lang {
+    grid-area: lang;
+    margin-top: -200px;
+}
+
+.ski {
+    grid-area: ski;
+}
+
+.workexp {
+    grid-area: workexp;
+}
+
+.edu {
+    grid-area: edu;
 }
 
 /**********************/
