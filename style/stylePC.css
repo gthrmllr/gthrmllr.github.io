@@ -106,6 +106,7 @@ nav>a,nav>a:visited,nav>a:hover,nav>a:active{
 
 #page01 {
     padding-left: 250px;
+    scroll-snap-align: start;
 }
 
 .page1 {
@@ -143,6 +144,7 @@ h2 {
 
 #page02 {
     padding-left: 250px;
+    scroll-snap-align: start;
 }
 
 .page2 {
@@ -176,6 +178,7 @@ h2 {
 
 #page03 {
     padding-left: 250px;
+    scroll-snap-align: start;
 }
 
 .page3 {
