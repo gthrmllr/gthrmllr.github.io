@@ -107,6 +107,12 @@ main {
     
 }
 
+.divresume {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    
+}
+
 .case {
     grid-template-columns: auto  75%;
 }
