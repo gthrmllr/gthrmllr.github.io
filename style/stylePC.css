@@ -4,6 +4,7 @@ body {
     color: #FFF4FB;
     font-family: 'Jost';
     scroll-behavior: smooth;
+    overflow-x: hidden;
 
 }
 
@@ -97,6 +98,10 @@ nav>a,nav>a:visited,nav>a:hover,nav>a:active{
 /*****   PAGE 1  ******/
 /**********************/
 
+#page01 {
+    padding-left: 250px;
+}
+
 .page1 {
     margin-left: 250px;
     margin-right: 250px;
@@ -126,14 +131,14 @@ nav>a,nav>a:visited,nav>a:hover,nav>a:active{
 /*****   PAGE 2  ******/
 /**********************/
 
-#page2 {
-    margin-left: 250px;
-    margin-right: 250px;
+#page02 {
+    padding-left: 250px;
 }
 
 .page2 {
     margin-left: 250px;
     margin-right: 250px;
+    
 }
 
 .titre_work {
@@ -158,6 +163,10 @@ nav>a,nav>a:visited,nav>a:hover,nav>a:active{
 /**********************/
 /*****   PAGE 3  ******/
 /**********************/
+
+#page03 {
+    padding-left: 250px;
+}
 
 .page3 {
     margin-left: 250px;
@@ -185,6 +194,10 @@ nav>a,nav>a:visited,nav>a:hover,nav>a:active{
 /**********************/
 /*****   PAGE 4  ******/
 /**********************/
+
+#page04 {
+    padding-left: 250px;
+}
 
 .page4 {
     margin-left: 250px;

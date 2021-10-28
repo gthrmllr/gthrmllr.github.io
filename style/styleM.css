@@ -4,8 +4,12 @@ body {
     color: #FFF4FB;
     font-family: 'Jost';
     scroll-behavior: smooth;
+    
 }
 
+::selection{
+    background-color: #9b6d72;
+}
 /**********************/
 /*****   HEADER  ******/
 /**********************/
