@@ -1,187 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style/styleM.css">
-    <link rel="stylesheet" href="/style/stylePC.css" media="screen and (min-width: 1000px)">
-    <title>Jade BACHETA's Portfolio</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-    </style>
+    <link rel="stylesheet" href="/styles/index/styleM.css">
+    <link rel="stylesheet" href="/styles/index/styleT.css" media="screen and (min-width:800px)">
+    <link rel="stylesheet" href="/styles/index/stylePC.css" media="screen and (min-width:1350px)">
+    <title>Gîte au Poisson-Chat</title>
 </head>
-
 <body>
     <header>
-        <p class="menu" onclick=menu()>MENU</p>
-        <div class="barre_blanche"></div>
-
-        <nav>
-            <a href="/index.html#page01" onclick=menu()>
-                <p class="aboutme">ABOUT ME</p>
-            </a>
-            <a href="/index.html#page02" onclick=menu()>
-                <p class="portfolio">PORTFOLIO</p>
-            </a>
-            <a href="/index.html#page03" onclick=menu()>
-                <p class="resume_nav">RESUME</p>
-            </a>
-            <a href="/index.html#page04" onclick=menu()>
-                <p class="contactme">CONTACT ME</p>
-            </a>
-        </nav>
+        <img src="./img/ACCUEIL/Logo.png" alt="Logo">
+        <p class="menu" onclick=menu() >MENU</p>
     </header>
 
     <main>
-        <div class="page1" id=page01>
-            <div class="txtpage1">
-                <p class="page_1_txt1">Hello, I'm</p>
-                <h1>
-                    <p class="page_1_txt2">Jade Bachetta.</p>
-                </h1>
-                <p class="page_1_txt3">I’m a multimedia student aspiring to become a Graphic Designer and Web Designer.
-                </p>
-            </div>
 
+        <nav>
+            <a href="/index.html"><p>Accueil</p></a>
+            <a href="/gites-et-tarifs.html"><p>Gîtes et tarifs</p></a>
+            <a href="/activites.html"><p>Activités</p></a>
+            <a href="/contact.html"><p>Contact</p></a>
+        </nav>
+
+        <div class="section1" >
             
+
+        
+                <div class="slider">
+
+                    <img src="/img/ACCUEIL/Image Slider 1.png">
+                      <div class="txt">
+                            <p class="gite">GÎTE</p>
+                            <h1>Au Poisson Chat</h1>
+                            <p class="phrase">Eté comme hiver, découvrez les Vosges sous toutes ses facettes</p>
+                        </div>
+
+                </div>  
+        </div>    
+
+
+        <div class="section2">
+
+                <p class="s2txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod fuga nam voluptatem laudantium, molestias eligendi vel cupiditate ratione iste veritatis nemo, quas praesentium consequatur hic est voluptates sed non quae. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium cum sunt obcaecati? Magnam natus ut eveniet doloribus autem voluptates pariatur, odit nisi laudantium impedit eos quasi iste, sunt labore voluptatum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia suscipit dolorem, nesciunt cumque ratione et consectetur aliquid eaque maiores deleniti explicabo ullam rem distinctio voluptates! Tempora porro deleniti perspiciatis reprehenderit?</p>
+                
+                <a href="/gites-et-tarifs.html"><div class="button_gites">
+                    Découvrir les gîtes
+                    <img src="/img/ACCUEIL/arrow.png">
+                </div></a>
+
+                <div class="s2img"><img src="/img/ACCUEIL/img.png"></div>
         </div>
 
-        <div class="page2" id=page02>
-            <h2>Discover my work.</h2>
-
-
-            <a href="/illustrations.html">
-                <div class="work_illu">
-                    <div class="titre_work">Illustrations</div>
-                </div>
-            </a>
-            <a href="/webdesign.html">
-                <div class="work_webdesign">
-                    <div class="titre_work">WebDesign</div>
-                </div>
-            </a>
-
-
-
-            
-        </div>
-
-        <div class="page3" id=page03>
-            <h2>Skills.</h2>
-            <div class="skills_group">
-                <div class="skills">
-                    <img src="/img/index/ps.png" class="logo_skills">
-
-                    <div class="desc_skills">
-                        <p class="nom_skills">Clip Studio Paint</p>
-                        <div class="barre_blanche_skills">
-                            <div class="barre_skills"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skills">
-                    <img src="/img/index/ps.png" class="logo_skills">
-
-                    <div class="desc_skills">
-                        <p class="nom_skills">InDesign</p>
-                        <div class="barre_blanche_skills">
-                            <div class="barre_skills"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="skills">
-                    <img src="/img/index/ps.png" class="logo_skills">
-
-                    <div class="desc_skills">
-                        <p class="nom_skills">Illustrator</p>
-                        <div class="barre_blanche_skills">
-                            <div class="barre_skills"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="skills">
-                    <img src="/img/index/ps.png" class="logo_skills">
-
-                    <div class="desc_skills">
-                        <p class="nom_skills">Photoshop</p>
-                        <div class="barre_blanche_skills">
-                            <div class="barre_skills"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="skills">
-                    <img src="/img/index/ps.png" class="logo_skills">
-
-                    <div class="desc_skills">
-                        <p class="nom_skills">HTML / CSS</p>
-                        <div class="barre_blanche_skills">
-                            <div class="barre_skills"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="skills">
-                    <img src="/img/index/ps.png" class="logo_skills">
-
-                    <div class="desc_skills">
-                        <p class="nom_skills">PHP</p>
-                        <div class="barre_blanche_skills">
-                            <div class="barre_skills"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="skills">
-                    <img src="/img/index/ps.png" class="logo_skills">
-
-                    <div class="desc_skills">
-                        <p class="nom_skills">Javascript</p>
-                        <div class="barre_blanche_skills">
-                            <div class="barre_skills"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="skills">
-                    <img src="/img/index/ps.png" class="logo_skills">
-
-                    <div class="desc_skills">
-                        <p class="nom_skills">jQuery</p>
-                        <div class="barre_blanche_skills">
-                            <div class="barre_skills"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <a href="/resume.html">
-                <div class="resume">VIEW FULL RESUME</div>
-            </a>
-
-            
-        </div>
-
-        <div class="page4" id=page04>
-            <h2>Contact me.</h2>
-
-            <div class="moyenconatct">
-                <a href="mailto:bachetaj@gmail.com"><img src="/img/index/mail.png"> bachettaj@gmail.com</a>
-                <a href="https://www.linkedin.com/in/jade-bachetta-949620205/"><img
-                        src="/img/index/linkedin.png">Linkedin profile</a>
-            </div>
-
-            
-        </div>
-
+       
     </main>
 
     <footer>
-        Designed by me / Codded by .<a href="https://www.linkedin.com/in/gauthier-muller-0a0622205/"> Gauthier
-            MULLER</a>
+
+        <div class="suiveznous">
+            <p class="tfooter">SUIVEZ NOUS</p>
+            <a href="https://instagram.com/njnoyume/"><img src="/img/ACCUEIL/IG.png"></a>
+            <a href="https://onlyfans.com/feetqueen"><img src="/img/ACCUEIL/FB.png"></a>
+        </div>
+
+        <div class="nouscontacter">
+            <p class="tfooter">NOUS CONTACTER</p>
+            <a href="tel:06-73-98-22-30">06 73 98 22 30</a>
+            <a href="mailto:david.convard@wanadoo.fr">david.convard@wanadoo.fr</a>
+            566 rue de la Vigne, Anould
+        </div>
+
+        <div class="mentionslegales">
+            <p class="tfooter">MENTIONS LEGALES</p>
+        </div>
     </footer>
 
     <script src="/js/script.js"></script>
 
 </body>
-
 </html>
