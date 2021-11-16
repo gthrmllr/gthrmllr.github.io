@@ -1,0 +1,46 @@
+/************************************/
+/**********  HEADER   ***************/
+/************************************/
+
+nav {
+    transform: translateY(0%);
+    position: absolute;
+    top: -40px;   
+    display: flex;
+    background-color: transparent;
+    font-size: 16pt;
+    height: 1vh;
+    justify-content:center;
+    
+}
+
+.menu {
+    display: none;
+}
+
+nav>a{
+    margin-left: 50px;   
+}
+
+nav>a:nth-child(1){
+    margin-left: auto;   
+}
+
+nav>a:nth-child(5){
+    transform: translateY(15px);
+    margin-left: auto;   
+}
+
+.eng {
+    height: 32px;
+}
+
+/************************************/
+/**********  FOOTER   ***************/
+/************************************/
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
