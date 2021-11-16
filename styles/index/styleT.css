@@ -33,6 +33,15 @@ nav>a:nth-child(5){
 
 .eng {
     height: 32px;
+    margin-left: -50px;
+}
+
+/************************************/
+/**********  MAIN PAGE 1    ***************/
+/************************************/
+
+.photo_accueil2 {
+    width: 800px;
 }
 
 /************************************/
@@ -40,7 +49,22 @@ nav>a:nth-child(5){
 /************************************/
 
 footer {
-    display: flex;
-    justify-content: space-between;
+ 
 }
 
+.tfooter {
+    display: inline-flex;
+    width: 150px;
+    grid-template-columns: tfooter;
+}
+
+.suiveznous {
+    display: grid;
+
+}
+
+/* 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+*/
