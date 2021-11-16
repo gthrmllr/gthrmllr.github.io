@@ -1,3 +1,4 @@
+
 body {
     margin: 0 0;
     max-width: 100vw;
@@ -18,6 +19,7 @@ header {
     justify-content: space-between;
     padding: 15px;
     box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.15);
+
 }
 
 nav {
@@ -55,80 +57,35 @@ nav>a:nth-child(1),a:hover:nth-child(1),a:visited:nth-child(1){
 /**********  MAIN PAGE 1  ***************/
 /************************************/
 
-
-.slider {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    transition: 0.4s;
-    position: relative;
+.section1 {
+    margin-top: 50px;
 }
 
-.slider>img {
-    width: 100%;
+.section1 a, .section1 a:hover, .section1 a:visited, .section1:active {
+    text-decoration:none;
+    color: black;
 }
 
-
-
-.txt {
-    position: absolute;
-    
-    color: #FFF;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    
-}
-
-
-
-h1 {
-    font-family: 'Cormorant Garamond';
-    margin-top: -20px;
-    margin-bottom: -15px;
-}
-
-/************************************/
-/**********  MAIN PAGE 2   **********/
-/************************************/
-
-.s2txt {
-    padding: 25px;
-}
-
-.button_gites {
-    background-color: #ACC4A1;
-    color: #FFFDFA;
-    font-size: 22pt;
-    font-weight: bold;
+.tel a, .mail a, .adresse {
     display: inline-flex;
     align-items: center;
-    gap: 25px;
-    padding: 10px;
+    gap: 30px;
+    margin-left: 60px;
+    margin-bottom: 15px;
 
-    margin-left:25px;
-    margin-bottom: 50px;
 }
 
-.button_gites a,.button_gites a:hover,.button_gites a:visited,.button_gites a:active{
-    color: #FFF;
-	text-decoration:none;
-}
-
-
-
-.s2img {
+.section2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-    padding-bottom: 50px;
-   
+  
+  
 }
 
-
+.carte {
+    margin: 30px;
+}
 /************************************/
 /**********  FOOTER   ***************/
 /************************************/
