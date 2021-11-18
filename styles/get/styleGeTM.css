@@ -1,12 +1,11 @@
 body {
     margin: 0 0;
-    width: 100vw;
+    max-width: 100vw;
     overflow-x: hidden;
     
     display: grid;
-
     font-family: 'Raleway';
-   
+
 }
 
 /************************************/
@@ -19,13 +18,12 @@ header {
     justify-content: space-between;
     padding: 15px;
     box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.15);
-
 }
 
 nav {
-    background-color: #FFFDFA;
-    height: 100vh;
-    width: 100vw;
+    background-color: #FFF;
+    height: 300vh;
+    width: 95vw;
     transition: 0.4s;
     transform: translateY(-200%);
     position: absolute;
@@ -45,6 +43,7 @@ nav a,nav a:hover,nav a:visited,nav a:active{
 
 nav>a:nth-child(2),a:hover:nth-child(2),a:visited:nth-child(2){
     color: #ACC4A1;
+    font-weight: bolder;
 }
 
 .ferme{
@@ -52,6 +51,7 @@ nav>a:nth-child(2),a:hover:nth-child(2),a:visited:nth-child(2){
     overflow:hidden; 
    
 }
+
 
 /************************************/
 /**********  MAIN PAGE 1  ***************/
@@ -95,6 +95,7 @@ h1 {
     padding: 10px;
     margin-top: 5px;
     border-radius: 5px;
+    transform: translateX(30px);
 }
 
 .photos_gites a,.photos_gites a:hover,.photos_gites a:visited,.photos_gites a:active{

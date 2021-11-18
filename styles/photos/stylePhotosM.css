@@ -6,6 +6,7 @@ body {
     
     display: grid;
     font-family: 'Raleway';
+
    
 }
 
@@ -45,6 +46,7 @@ nav a,nav a:hover,nav a:visited,nav a:active{
 
 nav>a:nth-child(3),a:hover:nth-child(3),a:visited:nth-child(3){
     color: #ACC4A1;
+    font-weight: bolder;
 }
 
 .ferme{
@@ -59,6 +61,14 @@ nav>a:nth-child(3),a:hover:nth-child(3),a:visited:nth-child(3){
 
 .section1 {
     margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+h1 {
+    font-family: 'Cormorant Garamond';
+    text-shadow: #ACC4A1 -3px 3px;
+    font-size: 32pt;
+    margin-left: 30px;
 }
 
 .section1 a, .section1 a:hover, .section1 a:visited, .section1:active {
@@ -76,8 +86,9 @@ nav>a:nth-child(3),a:hover:nth-child(3),a:visited:nth-child(3){
 }
 
 
-.carte {
-    margin: 30px;
+.photos {
+    display: flex;
+    flex-wrap: wrap;
 }
 /************************************/
 /**********  FOOTER   ***************/
