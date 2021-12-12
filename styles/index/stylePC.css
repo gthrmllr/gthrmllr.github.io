@@ -4,7 +4,7 @@
 
 nav {
     transform: translateY(0%);
-    position: absolute;
+        position: absolute;
     top: -40px;   
     display: flex;
     background-color: transparent;
