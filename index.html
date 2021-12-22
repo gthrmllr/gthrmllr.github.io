@@ -1,86 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/index/styleM.css">
-    <link rel="stylesheet" href="/styles/index/styleT.css" media="screen and (min-width:800px)">
-    <link rel="stylesheet" href="/styles/index/stylePC.css" media="screen and (min-width:1350px)">
-    <title>Gîte au Poisson-Chat</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/phone.css">
+    <title>Hyjal</title>
 </head>
+
 <body>
     <header>
-        <img src="./img/ACCUEIL/Logo.png" alt="Logo">
-        <p class="menu" onclick=menu() >MENU</p>
+        <a href="#"><img src="/img/logo.svg" alt="Logo Hyjal" width="250px" class="logo"></a>
+
+        <img src="/img/menu.svg" alt="Menu pour accéder à la navigation" class="menu">
+        <nav>
+            <ul>
+                <li>accueil</li>
+                <li>à propos</li>
+                <li>préstations</li>
+                <li>réalisations</li>
+                <li>contact</li>
+            </ul>
+        </nav>
     </header>
 
-    <nav>
-        <a href="/index.html"><p>Accueil</p></a>
-        <a href="/gites-et-tarifs.html"><p>Gîtes et tarifs</p></a>
-        <a href="/photos.html"><p>Photos</p></a>
-        <a href="/contact.html"><p>Contact</p></a>
- 
-    </nav>
+    <img src="img/background.png" class="background">
 
-    <main>
+    </img>
 
-        <div class="section1" >
-            
+    <section id=accueil>
 
-        
-                <div class="slider">
+        <div class="txt-accueil">
+            <span>"</span>
+            <span>Pour vous aider à gravir la montagne de vos projets.</span>
+            <span>"</span>
 
-                    <img src="/img/ACCUEIL/Image Slider 1.png " lazy="loading">
-                      <div class="txt">
-                            <p class="gite">GÎTE</p>
-                            <h1>Au Poisson Chat</h1>
-                            <p class="phrase">Eté comme hiver, découvrez les Vosges sous toutes ses facettes</p>
-                        </div>
-
-                </div>  
-        </div>    
-
-
-        <div class="section2">
-
-                <p class="s2txt">David Convard, propriétaire d'une ancienne ferme vosgienne rénovée, vous accueille chaleureusement dans ses gîtes sur un terrain de 3 hectares  doté d'un merveilleux étang de pêche.<br><br>Situé au coeur des Hautes-Vosges, vous aurez l’occasion de vous trouver à moins  d’une demi-heure des incontournables pistes de ski et randonnées, dans une nature authentique aussi dépaysante qu’apaisante.</p>
-                
-                <a href="/gites-et-tarifs.html"><div class="button_gites">
-                    Découvrir les gîtes
-                    <img src="/img/ACCUEIL/arrow.png" lazy="loading">
-                </div></a>
-
-                <div class="s2img"><img src="/img/ACCUEIL/img.png" width="350px" class="photo_accueil2" lazy="loading"></div>
         </div>
 
-       
-    </main>
+    </section>
 
-    <footer>
+    <section id="apropos">
 
-        <div class="suiveznous">
-            <p class="tfooter">SUIVEZ NOUS</p>
-            <a href="https://instagram.com/njnoyume/" class="insta_footer"><img src="/img/ACCUEIL/IG.png" lazy="loading"></a>
-            <a href="https://onlyfans.com/feetqueen" class="fb_footer"><img src="/img/ACCUEIL/FB.png" lazy="loading"></a>
+        <div class="bulle">
+            <p class="titre">Notre moteur : la passion !</p>
+
+            <div class="desc">
+                <ul>
+                    <li>La passion inspireet animle chaque collaboteur d'Hyjal</li>
+                    <li>Nous sommes des amateurs de jeux vidéo</li>
+                </ul>
+            </div>
         </div>
 
-        <div class="nouscontacter">
-            <p class="tfooter">NOUS CONTACTER</p>
-            <a href="tel:06-73-98-22-30" class ="phone_footer">06 73 98 22 30</a>
-            <a href="mailto:david.convard@wanadoo.fr" class="mail_footer">david.convard@wanadoo.fr</a>
-            <p class="adresse_footer">566 rue de la Vigne, Anould</p>
+
+        <div class="bulle">
+            <p class="titre">Le jeu d'équipe fait toute la différence</p>
+
+            <div class="desc">
+                <ul>
+                    <li>Nous partageons notre expertise et nos bonnes pratiques pour nous entraider et améliorer les compétences de chacun.</li>
+                    <li>Nous écoutons les autres et discutons avec respect et sans jugement.</li>
+                </ul>
+            </div>
         </div>
 
-        <div class="mentionslegales">
-            <p class="tfooter">MENTIONS LEGALES</p>
+
+        <div class="bulle">
+            <p class="titre">Les clients d'abord !</p>
+
+            <div class="desc">
+                <ul>
+                    <li>Nous amenons nos clients au sommet de leurs projets.
+                    </li>
+                    <li>Nous construisons une relation à long terme avec nos clients.</li>
+                    <li>Nous menons des projets de communication sur-mesure pour nos clients.</li>
+                </ul>
+            </div>
         </div>
-    </footer>
 
-    <script src="/js/script.js"></script>
+    </section>
 
+    <script src="js/script.js"></script>
 </body>
+
 </html>
