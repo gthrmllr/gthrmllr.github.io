@@ -7,6 +7,10 @@
     list-style: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #709EA2;
     overflow-x: hidden;
@@ -76,6 +80,11 @@ nav>ul>li:hover {
     font-weight: bolder;
 }
 
+nav>ul>li>a {
+    text-decoration: none;
+    color: #FFF;
+}
+
 .nav-visible {
     transform: translateX(0%);
     transition: .5s;
@@ -121,6 +130,10 @@ nav>ul>li:hover {
 
 
 /**A PROPOS**/
+
+#apropos {
+    scroll-margin-top: 125px;
+}
 
 .bulle {
     background-color: #FFF;
@@ -221,6 +234,10 @@ nav>ul>li:hover {
 
 /**PRESTATIONS**/
 
+#prestations {
+    scroll-margin-top: 125px;
+}
+
 .pack {
     background-color: #FFF;
     border-radius: 15px;
@@ -261,4 +278,144 @@ nav>ul>li:hover {
     padding: 30px;
     font-size: 12px;
     text-align: center;
+}
+
+
+/**REALISATIONS**/
+
+#realisations {
+    scroll-margin-top: 125px;
+}
+
+.realisations-bulles {
+    background-color: #D7EED6;
+    color: #FFF;
+    margin: 30px;
+    border-radius: 15px;
+    height: 200px;
+}
+
+
+/**CONTACT**/
+
+#contact {
+    scroll-margin-top: 125px;
+}
+
+.contact-bulle {
+    background-color: #FFF;
+    border-radius: 15px;
+    margin: 30px;
+    padding: 15px;
+}
+
+.top-contact-bulle {
+    color: #EC9874;
+    border-bottom: #33333365 1px solid;
+    font-weight: bold;
+}
+
+.contact-bulle>ul>li>span {
+    color: #EC9874;
+    font-weight: bolder;
+}
+
+.contact-bulle>ul>li {
+    margin-top: 30px;
+}
+
+.form-contact {
+    background-color: #FFF;
+    border-radius: 15px;
+    margin: 30px;
+    padding: 15px;
+}
+
+.div-champs-form {
+    display: grid;
+    grid-template-areas: "nom prenom" "mail mail" "message message";
+}
+
+.div-champs-form>div:nth-child(1) {
+    grid-area: nom;
+}
+
+.div-champs-form>div:nth-child(2) {
+    grid-area: prenom;
+}
+
+.div-champs-form>div:nth-child(3) {
+    grid-area: mail;
+}
+
+.div-champs-form>div:nth-child(4) {
+    grid-area: message;
+}
+
+.div-champs-form>div {
+    padding: 10px;
+}
+
+.div-champs-form>div>input {
+    border-radius: 5px;
+    border: #33333365 1px solid;
+}
+
+.top-form-contact {
+    color: #EC9874;
+    border-bottom: #33333365 1px solid;
+    font-weight: bold;
+}
+
+.champs-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.div-champs-form>a {
+    text-decoration: none;
+    color: white;
+    background-color: #EC9874;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.bottom-form-contact {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.div-pieces-jointes {
+    display: flex;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pieces-jointes {
+    margin-left: 30px;
+    background-color: #cecece;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+
+.bottom-form-contact>div:nth-child(2) {
+    color: white;
+    background-color: #EC9874;
+    text-decoration: none;
+    width: 100%;
+    margin-top: 10px;
+    padding: 30px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-form-contact>div>a {
+    color: white;
+    text-decoration: none;
 }

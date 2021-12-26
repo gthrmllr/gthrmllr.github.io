@@ -16,3 +16,41 @@ window.addEventListener('scroll', () => {
     }
 
 )
+
+
+
+document.querySelector(".link_accueil").addEventListener("click", function() {
+    document.querySelector("nav").classList.remove("nav-visible");
+    document.querySelector("body").classList.remove("body-overflow");
+    console.log("a")
+})
+
+document.querySelector(".link_apropos").addEventListener("click", function() {
+    document.querySelector("nav").classList.remove("nav-visible");
+    document.querySelector("body").classList.remove("body-overflow");
+    console.log("a")
+})
+
+document.querySelector(".link_prestations").addEventListener("click", function() {
+    document.querySelector("nav").classList.remove("nav-visible");
+    document.querySelector("body").classList.remove("body-overflow");
+    console.log("a")
+})
+
+document.querySelector(".link_accueil").addEventListener("click", function() {
+    document.querySelector("nav").classList.remove("nav-visible");
+    document.querySelector("body").classList.remove("body-overflow");
+    console.log("a")
+})
+
+document.querySelector(".link_realisations").addEventListener("click", function() {
+    document.querySelector("nav").classList.remove("nav-visible");
+    document.querySelector("body").classList.remove("body-overflow");
+    console.log("a")
+})
+
+document.querySelector(".link_contact").addEventListener("click", function() {
+    document.querySelector("nav").classList.remove("nav-visible");
+    document.querySelector("body").classList.remove("body-overflow");
+    console.log("a")
+})
