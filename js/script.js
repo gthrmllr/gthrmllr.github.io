@@ -13,7 +13,29 @@ window.addEventListener('scroll', () => {
             document.querySelector("#apropos>.bulle:nth-child(3)").classList.add('bulle-anim');
         };
 
+        if (window.scrollY > 1000) {
+
+            document.querySelector(".profil").classList.add('profil-anim');
+            document.querySelector(".profil:nth-child(2)").classList.add('profil-anim');
+            document.querySelector(".profil:nth-child(3)").classList.add('profil-anim');
+            document.querySelector(".profil:nth-child(4)").classList.add('profil-anim');
+            document.querySelector(".profil:nth-child(5)").classList.add('profil-anim');
+
+        };
+
+        if (window.scrollY > 1700) {
+            console.log("test222")
+            document.querySelector(".pack").classList.add('bulle-anim');
+            document.querySelector(".pack:nth-child(2)").classList.add('bulle-anim');
+            document.querySelector(".pack:nth-child(3)").classList.add('bulle-anim');
+
+
+        };
+
+
     }
+
+
 
 )
 
