@@ -64,6 +64,7 @@ nav {
     font-weight: bold;
     overflow-y: none;
     text-transform: uppercase;
+    background-color: #709EA2;
 }
 
 nav>ul>li {
@@ -73,7 +74,7 @@ nav>ul>li {
 }
 
 nav>ul>li:hover {
-    background-color: #54777a;
+    background-color: #709EA2;
     font-weight: bolder;
 }
 
@@ -93,6 +94,8 @@ nav>ul>li>a {
 
 .menu {
     z-index: 3;
+    position: absolute;
+    right: 55px;
 }
 
 
@@ -199,6 +202,7 @@ nav>ul>li>a {
     align-items: center;
     justify-content: center;
     opacity: 0;
+    box-shadow: -5px 5px 8px rgba(0, 0, 0, 0.25);
 }
 
 .profil-anim {
@@ -278,6 +282,7 @@ nav>ul>li>a {
     margin: 30px;
     padding: 15px;
     opacity: 0;
+    box-shadow: -5px 5px 8px rgba(0, 0, 0, 0.25);
 }
 
 .pack:nth-child(2) {
@@ -340,6 +345,7 @@ nav>ul>li>a {
     margin: 30px;
     border-radius: 15px;
     height: 200px;
+    box-shadow: -5px 5px 8px rgba(0, 0, 0, 0.25);
 }
 
 .realisations-bulles:nth-child(1) {
@@ -360,6 +366,7 @@ nav>ul>li>a {
     border-radius: 15px;
     margin: 30px;
     padding: 15px;
+    box-shadow: -5px 5px 8px rgba(0, 0, 0, 0.25);
 }
 
 .top-contact-bulle {
@@ -387,6 +394,7 @@ nav>ul>li>a {
     border-radius: 15px;
     margin: 30px;
     padding: 15px;
+    box-shadow: -5px 5px 8px rgba(0, 0, 0, 0.25);
 }
 
 .div-champs-form {
