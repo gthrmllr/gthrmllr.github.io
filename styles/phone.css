@@ -203,6 +203,7 @@ nav>ul>li>a {
     justify-content: center;
     opacity: 0;
     box-shadow: -5px 5px 8px rgba(0, 0, 0, 0.25);
+    overflow-x: hidden;
 }
 
 .profil-anim {
@@ -276,6 +277,7 @@ nav>ul>li>a {
 
 #prestations {
     scroll-margin-top: 125px;
+    position: relative;
 }
 
 .pack {
@@ -350,8 +352,20 @@ nav>ul>li>a {
     box-shadow: -5px 5px 8px rgba(0, 0, 0, 0.25);
 }
 
-.realisations-bulles:nth-child(1) {
+#realisations>a:nth-child(1) .realisations-bulles {
     background-image: url(../img/lofixel-preview.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#realisations>a:nth-child(2) .realisations-bulles {
+    background-image: url(../img/debian-preview.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#realisations>a:nth-child(3) .realisations-bulles {
+    background-image: url(../img/asiatour-preview.png);
     background-position: center;
     background-size: cover;
 }
