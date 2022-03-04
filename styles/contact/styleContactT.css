@@ -1,0 +1,125 @@
+/************************************/
+/**********  HEADER   ***************/
+/************************************/
+
+nav {
+    transform: translateY(0%);
+    position: absolute;
+    top: -40px;    
+    display: flex;
+    background-color: transparent;
+    font-size: 16pt;
+    height: 1vh;
+    justify-content:center;
+    
+}
+
+.menu {
+    display: none;
+}
+
+nav>a{
+    margin-left: 50px;   
+}
+
+nav>a:nth-child(1){
+    margin-left: auto;   
+}
+
+nav>a:nth-child(5){
+    transform: translateY(15px);
+    margin-left: auto;   
+}
+
+.eng {
+    height: 32px;
+    margin-left: -50px;
+}
+
+/************************************/
+/**********  MAIN PAGE 2    ***************/
+/************************************/
+
+.section1 {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.section2 {
+    background-image: url(/img/fond_montagnes.png);
+}
+
+.carte, .coo {
+    margin-left: 150px;
+}
+
+.carte {
+    width: 450px;
+}
+
+/************************************/
+/**********  FOOTER   ***************/
+/************************************/
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tfooter {
+    display: inline-flex;
+    width: 150px;
+    grid-area: tfooter;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.suiveznous {
+    display: grid;
+    grid-template-areas: "tfooter  insta_footer"
+                         " none fb_footer ";
+    
+}
+
+.nouscontacter {
+    display: grid;
+    grid-template-areas: "tfooter  phone_footer"
+                         " tfooter mail_footer "
+                         " tfooter adresse_footer";
+    grid-template-columns: 1fr auto;
+}
+
+
+.fb_footer {
+    grid-area: fb_footer ;
+    margin-top: -65px;
+}
+
+.insta_footer {
+    grid-area: insta_footer ;
+    height: 33px;
+    width: 33px;
+    margin-top: 35px;
+}
+
+.mail_footer {
+    grid-area: mail_footer ;
+    margin-left: 40px;
+    transform: translateY(20px);
+
+}
+
+.phone_footer {
+    grid-area: phone_footer ;
+    margin-left: 40px;
+    transform: translateY(20px);
+
+}
+
+.adresse_footer {
+    grid-area : adresse_footer ;
+    margin-left: 40px;
+
+}
+
