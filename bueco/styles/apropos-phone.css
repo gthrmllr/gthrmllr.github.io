@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+body {
+    background-color: #074756;
+    color: white;
+    font-family: 'Jost';
+    height: 100vh;
+}
+
+
+/** HEADER **/
+
+header {
+    background-color: #06252C;
+    display: flex;
+    padding: 15px;
+    flex-direction: row-reverse;
+}
+
+
+/** NAV **/
+
+nav {
+    height: 100vh;
+    width: 100vw;
+    background-color: #06252C;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 26px;
+    transform: translateY(-1000px);
+    transition: .5s ease;
+}
+
+nav>ul>li {
+    margin-bottom: 25px;
+}
+
+nav>ul>li>a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav>ul>li>a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-bottom: 4px;
+    position: relative;
+    display: block;
+}
+
+nav>ul>li>a::after {
+    background-color: #FFCF26;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 0px;
+    transition: .5s ease;
+}
+
+nav>ul>li>a:hover::after {
+    width: 100%;
+    transition: .5s ease;
+}
+
+nav>ul>li:nth-child(2)>a {
+    color: #FFCF26;
+    font-weight: 500;
+}
+
+.nav-open {
+    transform: translateY(0px);
+    transition: .5s ease;
+}
+
+.menu {
+    z-index: 15;
+}
+
+
+/** MAIN **/
+
+.left {
+    margin: 30px;
+    text-align: justify;
+}
+
+.barre-blanche {
+    background-color: white;
+    width: auto;
+    height: 3px;
+    margin: 60px 30px 60px 30px;
+    border-radius: 15px;
+}
+
+.right {
+    margin: 30px;
+    text-align: justify;
+}
+
+.img-left,
+.img-right {
+    min-height: 100px;
+    max-width: 800px;
+    min-height: 50px;
+    max-height: 800px;
+    width: 95%;
+    height: 95%;
+    background-color: #999;
+    justify-items: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+}
+
+
+/** FOOTER **/
+
+footer {
+    background-color: #06252C;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
