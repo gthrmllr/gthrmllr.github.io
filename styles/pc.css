@@ -3,7 +3,7 @@
 .logo {
     width: 60px;
     left: 30px;
-    top: 30px;
+    top: 15px;
 }
 
 .listNav {
@@ -34,22 +34,8 @@ h2 {
 
 /*********** SECTION 02 **/
 
-.s02grid {
-    margin: 50px 300px 0px 300px;
-}
-
-.cits02 {
-    width: 25%;
-    transform: translateX(50%);
-    position: absolute;
-    bottom: 0;
-    left: 20%;
-    font-size: 16pt;
-}
-
-.imgs02 {
-    flex-direction: row;
-    position: relative;
+.txts02 {
+    max-width: 500px;
 }
 
 
