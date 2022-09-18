@@ -1,0 +1,60 @@
+/***************** HEADER + NAV **/
+
+.logo {
+    width: 96px;
+    left: 30px;
+    top: 30px;
+}
+
+.listNav {
+    padding-top: 30px;
+}
+
+
+/************** MAIN **/
+
+.txtMain {
+    width: 75%;
+    font-size: 42pt;
+}
+
+.txtMain h1 {
+    font-size: 102pt;
+}
+
+h2 {
+    font-size: 62pt;
+}
+
+.sep {
+    font-size: 26pt;
+    padding: 2%;
+}
+
+
+/*********** SECTION 02 **/
+
+.s02grid {
+    margin: 50px 300px 0px 300px;
+}
+
+.cits02 {
+    width: 25%;
+    transform: translateX(50%);
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    font-size: 16pt;
+}
+
+.imgs02 {
+    flex-direction: row;
+    position: relative;
+}
+
+
+/***************************** FOOTER **/
+
+footer {
+    padding: 2%;
+}

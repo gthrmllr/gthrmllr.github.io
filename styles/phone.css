@@ -1,0 +1,209 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Libre Franklin';
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+
+/**********************/
+
+
+/******  HEADER    ****/
+
+
+/**********************/
+
+header {
+    height: 0px;
+}
+
+.listNav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    color: black;
+    position: relative;
+    justify-content: center;
+    gap: 15px;
+    font-variant: small-caps;
+    font-size: 32pt;
+    transform: translateY(50%);
+}
+
+nav {
+    background-color: blanchedalmond;
+    position: relative;
+    transform: translateY(-150%);
+    transition: ease-in-out .75s;
+    height: 100vh;
+    z-index: 2;
+}
+
+.nav-open {
+    transform: translateY(0%);
+    position: relative;
+    transition: ease-in-out .75s;
+}
+
+.listNav a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+
+ul {
+    position: relative;
+}
+
+ul li {
+    position: relative;
+}
+
+.menu {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 5;
+}
+
+.logo {
+    position: absolute;
+    z-index: 2;
+    top: 15px;
+    left: 15px;
+    width: 64px;
+}
+
+nav ul li a::before {
+    background-color: black;
+    width: 0%;
+    height: 3px;
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: ease-out .5s;
+}
+
+nav ul li a:hover::before {
+    width: 100%;
+    transition: ease-out .5s;
+}
+
+
+/***********************   MAIN   ****/
+
+#s01 {
+    background-image: url(/img/landscape.png);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.txtMain {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFEFB;
+    font-size: 24pt;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-shadow: #131313 2px 2px;
+}
+
+.txtMain :nth-child(1) {
+    font-family: 'Libre Franklin';
+    font-style: italic;
+}
+
+.txtMain h1 {
+    font-size: 42pt;
+    font-family: 'Baskervville';
+}
+
+.txtMain :nth-child(3) {
+    font-family: 'Baskervville';
+    font-style: italic;
+}
+
+
+/*********************** SECTION 02 ****/
+
+#s02 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sep {
+    background-color: #131313;
+    width: 75%;
+    color: #FFFEFB;
+    text-align: center;
+    padding: 5%;
+}
+
+.sep h2 {
+    font-family: 'Baskervville';
+    margin-bottom: 10px;
+}
+
+.sepVert {
+    background-color: #51AE6F;
+    height: 15px;
+    width: 50%;
+}
+
+.s02grid {
+    margin: 15px;
+}
+
+.cits02 {
+    background-color: #131313;
+    color: #FFFEFB;
+}
+
+.photos02 {
+    margin-top: 35px;
+    height: 95%;
+    width: 95%;
+}
+
+.imgs02 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cits02 {
+    padding: 5%;
+    margin: -5%;
+    z-index: 1;
+    position: relative;
+    width: 75%;
+    font-style: italic;
+}
+
+.txts02 {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+
+
+/***************************** FOOTER **/
+
+footer {
+    background-color: lavenderblush;
+    padding: 10%;
+}
