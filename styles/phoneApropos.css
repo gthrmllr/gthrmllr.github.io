@@ -152,7 +152,7 @@ h1 {
 
 .sepimg {
     width: 100vw;
-    height: 100px;
+    height: 200px;
     background-image: url(../img/apropos/imgParralax.jpg);
     background-position: center;
     background-size: cover;
@@ -183,7 +183,8 @@ h1 {
 
 /************************** SECTION 03 **/
 
-#s03 {
+#s03,
+#s04 {
     height: auto;
     position: relative;
     margin: 30px;
@@ -381,6 +382,13 @@ h2 {
 
 .lightbox_close span:last-child {
     transform: rotate(-45deg);
+}
+
+
+/***************************** SECTION 04 **/
+
+#s04 p {
+    margin-top: 30px;
 }
 
 
