@@ -1,0 +1,12 @@
+footer {
+    padding: 2%;
+}
+
+#s01 {
+    display: flex;
+    margin: 200px 300px 0px 300px;
+}
+
+.map {
+    height: 500px;
+}

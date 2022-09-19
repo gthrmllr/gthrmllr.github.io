@@ -170,6 +170,9 @@ h3::after {
 /***************************** FOOTER **/
 
 footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     background-color: lavenderblush;
-    padding: 2%;
+    padding: 10%;
 }
