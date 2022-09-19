@@ -38,17 +38,19 @@ header {
 
 nav {
     background-color: blanchedalmond;
-    position: relative;
+    position: fixed;
     transform: translateY(-150%);
     transition: ease-in-out .75s;
     height: 100vh;
     z-index: 2;
+    width: 100%;
 }
 
 .nav-open {
     transform: translateY(0%);
-    position: relative;
+    position: fixed;
     transition: ease-in-out .75s;
+    width: 100%;
 }
 
 .listNav a {
@@ -69,7 +71,7 @@ ul li {
     position: absolute;
     top: 15px;
     right: 15px;
-    z-index: 5;
+    z-index: 10;
 }
 
 .logo {
@@ -113,7 +115,7 @@ nav ul li a:hover::before {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #FFFEFB;
-    font-size: 24pt;
+    font-size: 16pt;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -127,7 +129,7 @@ nav ul li a:hover::before {
 }
 
 .txtMain h1 {
-    font-size: 42pt;
+    font-size: 26pt;
     font-family: 'Baskervville';
 }
 
