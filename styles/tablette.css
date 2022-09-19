@@ -9,6 +9,8 @@ nav {
     height: auto;
     padding: 15px;
     font-size: 36pt;
+    position: absolute;
+    top: 10px
 }
 
 .listNav {

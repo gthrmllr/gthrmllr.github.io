@@ -173,6 +173,13 @@ nav ul li a:hover::before {
 .cits02 {
     background-color: #131313;
     color: #FFFEFB;
+    display: flex;
+    justify-content: center;
+}
+
+.cits02 a {
+    justify-content: center;
+    color: #FFFEFB;
 }
 
 .photos02 {
