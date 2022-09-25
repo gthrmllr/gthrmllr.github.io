@@ -173,6 +173,15 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-color: lavenderblush;
+    background-color: #131313;
     padding: 10%;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+
+footer a {
+    color: whitesmoke;
 }

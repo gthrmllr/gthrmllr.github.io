@@ -72,5 +72,28 @@ nav {
 /********* FOOTER **/
 
 footer {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    background-color: #131313;
     padding: 5%;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+}
+
+footer a {
+    color: whitesmoke;
+}
+
+footer a:hover {
+    color: #51AE6F;
+}
+
+
+.footer-right {
+    padding-right: 30px;
 }
