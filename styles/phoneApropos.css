@@ -1,0 +1,213 @@
+*,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Libre Franklin';
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+
+/**********************/
+
+
+/******  HEADER    ****/
+
+
+/**********************/
+
+header {
+    height: 0px;
+}
+
+.listNav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    color: black;
+    position: relative;
+    justify-content: center;
+    gap: 15px;
+    font-variant: small-caps;
+    font-size: 32pt;
+    transform: translateY(50%);
+}
+
+nav {
+    background-color: blanchedalmond;
+    position: fixed;
+    transform: translateY(-150%);
+    transition: ease-in-out .75s;
+    height: 100vh;
+    z-index: 2;
+    width: 100%;
+}
+
+.nav-open {
+    transform: translateY(0%);
+    transform: translateY(-125px);
+    position: fixed;
+    transition: ease-in-out .75s;
+    width: 100%;
+}
+
+.listNav a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+
+ul {
+    position: relative;
+}
+
+ul li {
+    position: relative;
+}
+
+.menu {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    z-index: 10;
+}
+
+.logo {
+    position: absolute;
+    z-index: 2;
+    top: 15px;
+    left: 15px;
+    width: 64px;
+}
+
+nav ul li a::before {
+    background-color: black;
+    width: 0%;
+    height: 3px;
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: ease-out .5s;
+}
+
+nav ul li a:hover::before {
+    width: 100%;
+    transition: ease-out .5s;
+}
+
+
+/***********************   MAIN   ****/
+
+#s01 {
+    height: auto;
+    position: relative;
+    margin: 30px;
+    margin-top: 125px;
+    text-align: justify;
+}
+
+.photoCit01 {
+    width: 75%;
+    height: auto;
+    margin-left: 15px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Baskervville';
+    position: relative;
+}
+
+h1::after,
+h2::after,
+h3::after {
+    content: "";
+    background-color: #FFE37B;
+    height: 15px;
+    width: 50%;
+    position: absolute;
+    bottom: 5px;
+    left: 5%;
+    z-index: -1;
+}
+
+h1 {
+    font-size: 32pt;
+}
+
+#s01 p,
+#s02 p {
+    margin: 15px 0px 15px 0px;
+}
+
+#s01 :nth-child(4) {
+    background-color: #BADEC5;
+    margin: 45px -30px 45px -30px;
+    padding: 30px;
+}
+
+.sepimg {
+    width: 100vw;
+    height: 200px;
+    background-image: url(../img/apropos/imgParralax.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+/*************************** SECTION 02 */
+
+#s02 {
+    height: auto;
+    position: relative;
+    margin: 30px;
+    text-align: justify;
+}
+
+.photos02 {
+    width: 85vw;
+    height: auto;
+}
+
+#s03 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    margin-top: 60px;
+    
+}
+
+.gallery img {
+    width: 25%;
+    height: 50%;
+   
+
+}
+
+/************************** SECTION 03 **/
+
+#s03,
+#s04 {
+    height: auto;
+    position: relative;
+    margin: 30px;
+}
+
+h2 {
+    font-size: 32pt;
+}
+
