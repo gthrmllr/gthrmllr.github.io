@@ -1,0 +1,44 @@
+nav ul a {
+    height: 223px;
+}
+
+.home-txt {
+    transform: scale(300%);
+    transition: 1s ease-in-out;
+}
+
+.btn-discoverWork {
+    transform: translateY(150px);
+}
+
+.linkWork {
+    transition: 1s ease-in-out;
+}
+
+.roll {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 18pt;
+}
+
+.txtDiscover {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 120px;
+    font-size: 32pt;
+}
+
+.personnage {
+    width: 600px;
+    bottom: -150px;
+}
+
+.container-works {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.linkMail {
+    width: 50%;
+}

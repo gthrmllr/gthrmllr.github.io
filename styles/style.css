@@ -25,6 +25,83 @@ section {
 }
 
 
+/****************************/
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    z-index: 5;
+    cursor: url(/img/common/pointeur.png), auto;
+    padding: 5px;
+}
+
+.barre-blanche {
+    width: 45px;
+    height: 5px;
+    background-color: #ffffff;
+    border: solid black 2px;
+}
+
+.nav-open {
+    transform: translateY(0px);
+    transition: .5s ease-in-out;
+}
+
+nav {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    z-index: 3;
+    background-color: #FFF7F0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: 'Righteous';
+    font-size: 36pt;
+    -webkit-text-stroke: 2px black;
+    -webkit-text-stroke-width: 2px;
+    transition: .5s ease-in-out;
+    transform: translateY(-200%);
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+nav ul a {
+    display: flex;
+    align-items: center;
+    background-color: #B8B2F2;
+    width: 100vw;
+    height: 100px;
+    border: 2px black solid;
+    text-shadow: 6.13333px 6.13333px 0px #000000;
+}
+
+nav ul>:nth-child(1) {
+    border-top: 4px black solid;
+}
+
+nav ul>:nth-child(4) {
+    border-bottom: 4px black solid;
+}
+
+nav ul a li {
+    padding-left: 15px;
+}
+
+nav ul :hover {
+    color: #6C64CE;
+}
+
+
 /************/
 
 #home {
@@ -47,6 +124,7 @@ section {
     -webkit-text-stroke-width: 3px;
     position: relative;
     z-index: 0;
+    transition: 1s ease-in-out;
 }
 
 .bvn {
@@ -142,7 +220,7 @@ h1 {
 /**********************************/
 
 #discover {
-    height: 100vh;
+    min-height: 100vh;
     background-color: #6C64CE;
     position: relative;
     overflow-y: hidden;
@@ -192,6 +270,7 @@ h1 {
 /**********************************/
 
 #work {
+    min-height: 100vh;
     background-color: #FFF7F0;
 }
 
