@@ -2,6 +2,11 @@
     margin: 0;
 }
 
+@font-face {
+    font-family: Righteous;
+    src: url(/fonts/Righteous-Regular.ttf);
+}
+
 html {
     scroll-behavior: smooth;
     transform: .5s ease;
@@ -39,11 +44,33 @@ section {
     padding: 5px;
 }
 
-.barre-blanche {
+.barre-blanche1,
+.barre-blanche2,
+.barre-blanche3 {
     width: 45px;
     height: 5px;
     background-color: #ffffff;
     border: solid black 2px;
+    transition: .2s ease-in-out;
+}
+
+.barre-blanche1-toggle {
+    transform-origin: left;
+    transform: rotate(33deg);
+    transition: .2s ease-in-out;
+}
+
+.barre-blanche2-toggle {
+    transform-origin: left;
+    opacity: 0;
+    transition: .2s ease-in-out;
+    background-color: crimson;
+}
+
+.barre-blanche3-toggle {
+    transform-origin: left;
+    transform: rotate(-33deg);
+    transition: .2s ease-in-out;
 }
 
 .nav-open {
@@ -297,6 +324,42 @@ h1 {
     transform: translate( 10px, -10px);
     box-shadow: -10px 10px 0px #000000;
     transition: .2s ease-in-out;
+}
+
+.container-works :nth-child(1)>div {
+    background-image: url(/img/home/Bueco-preview.png);
+    background-position: center;
+    background-size: 100%;
+}
+
+.container-works :nth-child(2)>div {
+    background-image: url(/img/home/hyjal-preview.png);
+    background-position: center;
+    background-size: 100%;
+}
+
+.container-works :nth-child(3)>div {
+    background-image: url(/img/home/debian-preview.png);
+    background-position: center;
+    background-size: 100%;
+}
+
+.container-works :nth-child(4)>div {
+    background-image: url(/img/home/poissonchat-preview.png);
+    background-position: center;
+    background-size: 100%;
+}
+
+.container-works :nth-child(5)>div {
+    background-image: url(/img/home/giteparcwesserling-preview.png);
+    background-position: center;
+    background-size: 100%;
+}
+
+.container-works :nth-child(6)>div {
+    background-image: url(/img/home/alicesousterre-preview.png);
+    background-position: center;
+    background-size: 100%;
 }
 
 
