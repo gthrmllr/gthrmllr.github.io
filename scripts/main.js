@@ -18,3 +18,5 @@ lien.addEventListener("click", function() {
     nav.classList.toggle("nav-open");
     console.log("éaa")
 })
+
+fsLightbox.open();
