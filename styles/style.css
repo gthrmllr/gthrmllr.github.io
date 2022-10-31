@@ -15,7 +15,6 @@ html {
 body {
     font-family: "Poppins";
     overflow-x: hidden;
-    background-color: lawngreen;
     cursor: url(/img/common/curseur.png), auto;
 }
 

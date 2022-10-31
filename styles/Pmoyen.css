@@ -1,0 +1,39 @@
+nav ul a {
+    height: 150px;
+}
+
+h1 {
+    font-size: 86pt;
+}
+
+.txtRoll {
+    font-size: 26pt;
+}
+
+.descProjet {
+    font-size: 24pt;
+}
+
+.infoProjet {
+    font-size: 18pt;
+    padding: 30px 120px 15px 120px;
+}
+
+.photosProjet {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.photosProjet a {
+    max-width: 25%;
+}
+
+.btn-discoverProjet {
+    display: flex;
+    justify-content: center;
+}
+
+.linkProjet {
+    width: 50%;
+}

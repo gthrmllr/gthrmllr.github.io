@@ -1,0 +1,28 @@
+/** HEADER **/
+
+header {
+    padding: 30px;
+}
+
+
+/** NAV **/
+
+.menu {
+    display: none;
+}
+
+nav {
+    transform: translateY(15px);
+    background-color: transparent;
+    height: 60px;
+}
+
+nav>ul {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+nav>ul>li>a {
+    font-size: 24px;
+}

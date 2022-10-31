@@ -15,7 +15,6 @@ html {
 body {
     font-family: "Poppins";
     overflow-x: hidden;
-    background-color: lawngreen;
     cursor: url(/img/common/curseur.png), auto;
 }
 
@@ -153,13 +152,32 @@ h1 {
 }
 
 .imgPreview {
-    background-image: url(/img/bueco/Screenshot_1.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 160px;
     width: 100%;
     border-top: 2px solid black;
+}
+
+.buceo {
+    background-image: url(/img/bueco/Screenshot_1.png);
+}
+
+.hyjal {
+    background-image: url(/img/hyjal/background.png);
+}
+
+.poissonchat {
+    background-image: url(/img/poissonchat/Screenshot_7.png);
+}
+
+.giteparcwesserling {
+    background-image: url(/img/giteparcwesserling/Screenshot_7.png);
+}
+
+.alicesousterre {
+    background-image: url(/img/alicesousterre/Screenshot_1.png);
 }
 
 .roll {
@@ -219,6 +237,12 @@ h1 {
     margin: 15px 15px 0 15px;
     border: solid black 3px;
     box-shadow: 0px 4px 0px #000000;
+    transition: .2s ease-in-out;
+}
+
+.linkProjet:hover {
+    transform: translate( 10px, -10px);
+    box-shadow: -10px 10px 0px #000000;
     transition: .2s ease-in-out;
 }
 

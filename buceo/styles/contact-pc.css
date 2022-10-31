@@ -1,0 +1,191 @@
+
+body{
+    height: 100vh;
+    overflow-x: hidden;
+
+}
+main{
+    height: 100vh;
+}
+
+section{
+    height: 1500px;
+}
+nav{
+    background-color: #06252c00;
+    position:absolute;
+    height: 118px;
+    width: 100vw;
+    color: white;
+
+   
+    transform: translateY(0);
+
+}
+header{
+   
+}
+
+nav ul{
+    margin-top: 26px;
+    height: 100%;
+    display: flex;
+    
+
+
+  
+
+}
+.info-block{
+    height: 195px;
+}
+
+nav>ul {
+
+    margin-bottom: 0;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  
+   
+   
+}
+.menu{
+    display: none;
+}
+nav ul li a{
+    font-size: 22px;
+    font-weight: 400;
+    padding-right: 30px;
+   
+}
+
+
+
+.info-block{
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 600;
+
+}
+video{
+
+}
+
+
+#map { height: 100%; 
+    width: 90%;
+    margin-left: auto;
+    z-index: 4;
+    margin-right: auto;
+grid-area: x;}
+    
+.container{
+ 
+    font-size: 24px;
+    margin-top: 105px;
+    display: grid;
+    justify-content: center;
+
+
+    grid-template-areas: "x x" "a b"
+"c b"
+"d e"
+"f f";
+grid-template-rows:  1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+.container div{
+    width: 450px;
+    height: 50px;
+}
+
+.send{
+    margin-top: 35px;
+}
+
+
+.send:hover{
+    background-color: #FFCF26;
+    color: #074756;
+}
+
+.container div:nth-child(2){
+grid-area: a;
+margin-bottom: 0;
+margin-left: auto;
+margin-right: 52px;
+margin-top: 0;
+
+}
+input{
+    line-height: 30px;
+}
+
+.container div:nth-child(3){
+    grid-area: c;
+    margin-bottom: 0;
+    margin-left: auto;
+margin-right: 52px;
+    }
+
+.container div:nth-child(4){
+        grid-area: d;
+        margin-left: auto;
+margin-right: 52px;
+margin-bottom: 0;
+        }
+        
+    
+.container div:nth-child(5){
+    grid-area: b;
+    margin-top: 6%;
+    margin-bottom: auto;
+    height: 100%;
+    }
+    
+.container div:nth-child(6){
+    grid-area: e;
+    margin-bottom: 0;
+    }
+    
+.container div:nth-child(7){
+    grid-area: f;
+    width: 60%;
+    margin: auto;
+    margin-left: auto;
+    }
+
+.contain-about{
+    font-size: 36px;
+    line-height: 52px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.contain-about div:nth-child(2) {
+    height: 800px;
+}
+
+textarea{
+    height: 200px;
+}
+
+footer{
+    height: 150px;
+}
+
+
+@media screen and (min-width:1440px) {
+    video{
+       
+height: 125%;
+    }
+}
+
+#particles-js{
+position: absolute;
+z-index: 0;
+height: 100vh;
+width: 100vw;
+}
