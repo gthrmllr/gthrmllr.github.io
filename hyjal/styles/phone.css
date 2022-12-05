@@ -1,0 +1,506 @@
+*,
+::after,
+::before {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #709EA2;
+    overflow-x: hidden;
+    font-family: 'Raleway';
+}
+
+section {
+    min-height: 100vh;
+}
+
+.bg {
+    height: 100vh;
+    width: 100vw;
+    background-position-x: center;
+    object-fit: cover;
+    z-index: -1;
+    position: fixed;
+}
+
+
+/**HEADER**/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+    background-color: #709EA2;
+}
+
+
+/**NAV**/
+
+nav {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+    transition: 0.4s ease;
+    transform: translateX(200%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: white;
+    font-size: 24pt;
+    font-weight: bold;
+    overflow-y: none;
+    text-transform: uppercase;
+    background-color: #709EA2;
+}
+
+nav>ul>li {
+    margin: 30px;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+nav>ul>li:hover {
+    background-color: #709EA2;
+    font-weight: bolder;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.nav-visible {
+    transform: translateX(0%);
+    transition: .5s;
+}
+
+.body-overflow {
+    overflow: hidden;
+}
+
+.menu {
+    z-index: 3;
+    position: absolute;
+    right: 55px;
+}
+
+
+/**ACCUEIL**/
+
+.txt-accueil {
+    position: relative;
+    top: 250px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.txt-accueil>span {
+    animation: spanFade 2s forwards ease;
+}
+
+@keyframes spanFade {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+
+/**A PROPOS**/
+
+#apropos {
+    scroll-margin-top: 125px;
+}
+
+.bulle {
+    background-color: #FFF;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: -5px 5px 8px rgba(0, 0, 0, 0.25);
+    opacity: 0;
+}
+
+.bulle-anim {
+    animation: bulleFade 1.5s forwards ease;
+}
+
+.titre {
+    color: #54777a;
+    font-weight: bolder;
+    margin-bottom: 25px;
+}
+
+.desc>ul>li {
+    list-style: disc;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+#apropos>.bulle:nth-child(1) {
+    animation-delay: .2s;
+}
+
+#apropos>.bulle:nth-child(2) {
+    animation-delay: .4s;
+}
+
+#apropos>.bulle:nth-child(3) {
+    animation-delay: .6s;
+}
+
+@keyframes bulleFade {
+    0% {
+        opacity: 0;
+        transform: translateX(-150px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.container-photo {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+    gap: 15px;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+.profil {
+    width: 130px;
+    height: 130px;
+    background-color: #709EA2;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    box-shadow: -5px 5px 8px rgba(0, 0, 0, 0.25);
+    overflow-x: hidden;
+}
+
+.profil-anim {
+    animation: profilFade forwards 1.5s ease;
+}
+
+.div-photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.photo {
+    max-width: 95%;
+    max-height: 95%;
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    z-index: 3;
+    background-color: #709EA2;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.photo:hover {
+    opacity: 0;
+}
+
+.div-infos-profil {
+    position: absolute;
+    text-align: center;
+    z-index: 2;
+    color: #FFF;
+}
+
+.nom {
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+@keyframes profilFade {
+    0% {
+        opacity: 0;
+        transform: translateY(150px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.profil:nth-child(2) {
+    animation-delay: .2s;
+}
+
+.profil:nth-child(3) {
+    animation-delay: .4s;
+}
+
+.profil:nth-child(4) {
+    animation-delay: .6s;
+}
+
+.profil:nth-child(5) {
+    animation-delay: .8s;
+}
+
+
+/**PRESTATIONS**/
+
+#prestations {
+    scroll-margin-top: 125px;
+    position: relative;
+}
+
+.pack {
+    background-color: #FFF;
+    border-radius: 15px;
+    margin: 30px;
+    padding: 15px;
+    opacity: 0;
+    box-shadow: -5px 5px 8px rgba(0, 0, 0, 0.25);
+}
+
+.pack:nth-child(2) {
+    animation-delay: .35s;
+}
+
+.pack:nth-child(3) {
+    animation-delay: .7s;
+}
+
+.top-pack {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titre-pack {
+    color: #EC9874;
+    font-weight: bolder;
+}
+
+.prix-pack {
+    color: #FFF;
+    font-weight: bold;
+    background-color: #EC9874;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.div-desc-pack {
+    margin-top: 10px;
+}
+
+.infos-pack {
+    font-weight: bold;
+}
+
+.infos-supp-pack {
+    color: #FFF;
+    align-items: center;
+    padding: 30px;
+    font-size: 14px;
+    text-align: center;
+    background-color: rgba(51, 51, 51, 0.295);
+    margin: 30px;
+    border-radius: 60px;
+    border: 1px solid rgba(0, 0, 0, 0.322);
+}
+
+
+/**REALISATIONS**/
+
+#realisations {
+    scroll-margin-top: 125px;
+}
+
+.realisations-bulles {
+    background-color: #D7EED6;
+    color: #FFF;
+    margin: 30px;
+    border-radius: 15px;
+    height: 200px;
+    box-shadow: -5px 5px 8px rgba(0, 0, 0, 0.25);
+}
+
+#realisations>a:nth-child(1) .realisations-bulles {
+    background-image: url(../img/lofixel-preview.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#realisations>a:nth-child(2) .realisations-bulles {
+    background-image: url(../img/debian-preview.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#realisations>a:nth-child(3) .realisations-bulles {
+    background-image: url(../img/woodendeath-preview.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+/**CONTACT**/
+
+#contact {
+    scroll-margin-top: 125px;
+}
+
+.contact-bulle {
+    background-color: #FFF;
+    border-radius: 15px;
+    margin: 30px;
+    padding: 15px;
+    box-shadow: -5px 5px 8px rgba(0, 0, 0, 0.25);
+}
+
+.top-contact-bulle {
+    color: #EC9874;
+    border-bottom: #33333365 1px solid;
+    font-weight: bold;
+}
+
+.contact-bulle>ul>li>span {
+    color: #EC9874;
+    font-weight: bolder;
+}
+
+.contact-bulle>ul>li {
+    margin-top: 30px;
+}
+
+.carte {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.form-contact {
+    background-color: #FFF;
+    border-radius: 15px;
+    margin: 30px;
+    padding: 15px;
+    box-shadow: -5px 5px 8px rgba(0, 0, 0, 0.25);
+}
+
+.div-champs-form {
+    display: grid;
+    grid-template-areas: "nom prenom" "mail mail" "message message";
+}
+
+.div-champs-form>div:nth-child(1) {
+    grid-area: nom;
+}
+
+.div-champs-form>div:nth-child(2) {
+    grid-area: prenom;
+}
+
+.div-champs-form>div:nth-child(3) {
+    grid-area: mail;
+}
+
+.div-champs-form>div:nth-child(4) {
+    grid-area: message;
+}
+
+.div-champs-form>div {
+    padding: 10px;
+}
+
+.div-champs-form>div>input {
+    border-radius: 5px;
+    border: #33333365 1px solid;
+    width: 50%;
+    min-width: 100px;
+    max-width: 300px;
+}
+
+.top-form-contact {
+    color: #EC9874;
+    border-bottom: #33333365 1px solid;
+    font-weight: bold;
+}
+
+.champs-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.div-champs-form>a {
+    text-decoration: none;
+    color: white;
+    background-color: #EC9874;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.bottom-form-contact {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.div-pieces-jointes {
+    display: flex;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pieces-jointes {
+    margin-left: 30px;
+    background-color: #cecece;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+
+.bottom-form-contact>div:nth-child(2) {
+    color: white;
+    background-color: #EC9874;
+    text-decoration: none;
+    width: 90%;
+    margin-top: 10px;
+    padding: 30px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-form-contact>div>a {
+    color: white;
+    text-decoration: none;
+}

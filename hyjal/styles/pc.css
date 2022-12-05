@@ -1,0 +1,173 @@
+/**HEADER**/
+
+.menu {
+    display: none;
+}
+
+nav {
+    display: flex;
+    transform: translateX(0%);
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    top: 17px;
+    right: 5px;
+    width: 100vw;
+    z-index: 3;
+    justify-content: end;
+    gap: 5px;
+    background-color: transparent;
+}
+
+nav>ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav>ul>li {
+    padding: 15px;
+    margin: 5px;
+}
+
+
+/**ACCUEIL**/
+
+#accueil {
+    display: flex;
+    justify-content: center;
+}
+
+.txt-accueil {
+    font-size: 64px;
+    width: 600px;
+}
+
+
+/**A PROPOS**/
+
+#apropos>div:nth-child(1) {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.bulle {
+    min-width: 300px;
+    max-width: 500px;
+    min-height: 200px;
+    max-height: 5500px;
+    margin: clamp(0px, 1%, 30px);
+    font-size: 26px;
+}
+
+.profil {
+    min-width: 200px;
+    max-width: 500px;
+    height: 350px;
+}
+
+.div-infos-profil {
+    top: 30px;
+}
+
+.photo:hover {
+    opacity: 1;
+}
+
+
+/**PRESTATIONS**/
+
+#prestations {
+    position: relative;
+}
+
+#prestations>div:nth-child(1) {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.pack {
+    min-width: 300px;
+    max-width: 500px;
+    min-height: 200px;
+    max-height: 450px;
+    margin: clamp(0px, 1%, 30px);
+    font-size: 22px;
+}
+
+.infos-supp-pack {
+    font-size: 18px;
+    background-color: rgba(51, 51, 51, 0.63);
+    border-radius: 30px;
+    width: max-content;
+    margin: clamp(0px, 1%, 30px);
+    position: absolute;
+    bottom: 350px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+/**REALISATIONS**/
+
+#realisations {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scroll-margin-top: -100px;
+}
+
+#realisations>a {
+    min-width: 400px;
+    max-width: 600px;
+    width: 100%;
+    height: 500px;
+}
+
+.realisations-bulles {
+    height: 500px;
+}
+
+
+/**CONTACT**/
+
+#contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scroll-margin-top: -100px;
+}
+
+.contact-bulle {
+    min-width: 400px;
+    max-width: 700px;
+    min-height: 400px;
+    max-height: 700px;
+    width: 100%;
+    height: 100%;
+    margin: clamp(0px, 1%, 30px);
+    font-size: 22px;
+    align-items: center;
+}
+
+.carte {
+    height: 100%;
+}
+
+.form-contact {
+    min-width: 400px;
+    max-width: 700px;
+    min-height: 400px;
+    max-height: 700px;
+    width: 100%;
+    height: 100%;
+    margin: clamp(0px, 1%, 30px);
+    font-size: 22px;
+}
+
+.div-champs-form>div>input {
+    width: 100%;
+}
