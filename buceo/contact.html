@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buceo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/contact-tel.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width:1024px)"
+      href="styles/contact-pc.css"
+    />
+  </head>
+  <body>
+    <header>
+      <img
+        src="./img/menu.svg"
+        alt="Menu pour accéder à la navigation"
+        height="32px"
+        class="menu"
+      />
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="apropos.html">À propos</a></li>
+        <li><a href="plonger.html">Plonger</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div id="particles-js"></div>
+    <main>
+      
+      <div class="container">
+      
+        <div id="map"></div>
+        
+        <div class="field input">
+          <label for="1">Nom</label><input type="text" id="1" placeholder="" />
+        </div>
+        <div><label for="">Prénom</label><input type="text" /></div>
+        <div><label for="">E-mail</label><input type="text" /></div>
+        <div>
+          <label for="">Message</label
+          ><textarea name="" class="oui" id="" cols="30" rows="10"></textarea>
+        </div>
+        <div><label for="">Téléphone</label><input type="text" /></div>
+        <div><input type="submit" class="send" name="Envoyez" id=""></div>
+      </div>
+      <footer>
+        <div class="footer-left">
+          <a href="mentions-legales.html">mentions légales</a>
+          <div>
+             <a href="https://www.instagram.com/buceo_association/"><img src="img/instagram_icon_125245.png" alt=""></a> 
+          </div>
+        </div>
+        <p>
+          Informations contact : <br />Téléphone : 06 76 28 46 78<br />
+          E-mail : <a href="mailto:buceo@gmail.com">buceo@gmail.com</a>
+        </p>
+        <p>
+          Un site crée par<br />
+          <a href="https://gthrmllr.github.io/"
+            ><img src="./img/logo-hyjal.svg" alt="Logo agence Hyjal" height="32px"
+          /></a>
+        </p>
+      </footer>
+    </main>
+    <link rel="stylesheet" href="js/particles.js">
+    <link rel="stylesheet" href="js/particles.min.js">
+    <link rel="stylesheet" href="js/app.js">
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script>
+      particlesJS.load("particles-js", "./asset/particle.json");
+    </script>
+    <script
+      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""
+    ></script>
+    <script src="js/script.js"></script>
+    <script>
+      var map = L.map('map').setView([20.318426164877263, -87.41062344687879], 9);
+      
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+      }).addTo(map);
+      
+      L.marker([20.318426164877263, -87.41062344687879]).addTo(map)
+      
+      
+      </script>
+  </body>
+</html>

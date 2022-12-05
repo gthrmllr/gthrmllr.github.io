@@ -1,0 +1,88 @@
+
+body{
+    height: 100vh;
+    overflow-x: hidden;
+}
+main{
+    height: 100vh;
+}
+
+section{
+    height: 1500px;
+}
+nav{
+    background-color: #06252c00;
+    position:absolute;
+    height: 118px;
+    width: 100vw;
+    color: white;
+   
+    transform: translateY(0);
+    justify-content: space-around;
+}
+header{
+    display: none;
+}
+
+nav ul{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+
+  
+
+}
+.info-block{
+    height: 195px;
+}
+
+nav>ul {
+
+    margin-bottom: 0;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+   
+    
+}
+nav ul li a{
+    font-size: 24px;
+    font-weight: 600;
+   
+}
+
+
+.info-block{
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 600;
+
+}
+video{
+
+}
+
+.contain-about{
+    font-size: 36px;
+    line-height: 52px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.contain-about div:nth-child(2) {
+    height: 800px;
+}
+
+footer{
+    height: 150px;
+}
+
+
+@media screen and (min-width:1440px) {
+    video{
+       
+height: 125%;
+    }
+}
+

@@ -3,7 +3,7 @@ nav ul a {
 }
 
 .home-txt {
-    transform: scale(250%);
+    transform: scale(300%);
     transition: 1s ease-in-out;
 }
 
