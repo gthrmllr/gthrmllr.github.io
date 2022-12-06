@@ -180,6 +180,10 @@ h1 {
     background-image: url(/img/alicesousterre/Screenshot_1.png);
 }
 
+.animations {
+    background-image: url(/img/animations/Screenshot_1.png);
+}
+
 .roll {
     display: flex;
     justify-content: center;
